@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+main {
+    background-color: white;
+    width: 700px;
+    height: 100%;
+    margin: auto;
+}
+
+section#img > img {
+    width: 700px;
+    height: 300px;
+}
