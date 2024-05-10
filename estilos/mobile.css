@@ -1,24 +1,72 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'font' ;
+    src: url('../fonts/YoungSerif-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'font2';
+    src: url('../fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body, html {
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
-    background-color: black;
+    background-color:  hsl(30, 54%, 90%);
 }
 
 main {
+    position: relative;
     background-color: white;
-    width: 700px;
-    height: 100%;
+    width: 600px;
+    height: auto;
     margin: auto;
 }
 
-section#img > img {
-    width: 700px;
+article#img > img {
+    width: 600px;
     height: 300px;
+}
+
+article#introducao > h1 {
+    font-size: 3.5em;
+    margin: 20px 0px 0px 50px;
+    font-family: 'font';
+    font-weight: 100;
+}
+
+article#introducao > p {
+    font-size: 1.5em;
+    margin: 20px 40px 0px 50px;
+    line-height: 1.3em;
+    font-family: 'font2';
+    color:  hsl(30, 10%, 34%);
+}
+
+article#preparacao {
+    background-color: hsl(332, 100%, 96%);
+    font-family: 'font2';
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+article#preparacao > h2 {
+    padding: 25px;
+    font-size: 1.5em;
+    color: hsl(333, 73%, 34%);
+}
+
+article#preparacao > ul > li {
+    padding: 10px;
+    font-size: 1.5em;
+    transform: translate(60px);
 }
