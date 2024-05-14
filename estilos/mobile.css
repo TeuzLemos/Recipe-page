@@ -5,7 +5,6 @@
     src: url('../fonts/YoungSerif-Regular.ttf') format('truetype');
 }
 
-
 @font-face {
     font-family: 'font2';
     src: url('../fonts/Outfit-VariableFont_wght.ttf') format('truetype');
@@ -53,9 +52,9 @@ article#introducao > p {
 article#preparacao {
     background-color: hsl(332, 100%, 96%);
     font-family: 'font2';
-    width: 400px;
+    width: 450px;
     height: 300px;
-    margin: auto;
+    margin-left: 50px;
     margin-top: 40px;
 }
 
@@ -69,4 +68,47 @@ article#preparacao > ul > li {
     padding: 10px;
     font-size: 1.5em;
     transform: translate(60px);
+}
+
+article#ingredientes > h2 {
+    font-family: 'font';
+    font-weight: normal;
+    font-size: 2em;
+    margin: 20px 40px 15px 50px;
+    color: rgb(131, 33, 33);
+}
+
+article#ingredientes > ul > li {
+    font-family: 'font2';
+    padding: 8px;
+    font-size: 1.2em;
+    color:  hsl(30, 10%, 34%);
+    transform: translate(75px);
+}
+
+hr {
+    margin: 30px 50px 40px 50px;
+    border: 1px solid lightgray;
+}
+
+article#instrucao > h2 {
+    font-family: 'font';
+    font-weight: normal;
+    font-size: 2em;
+    margin: 20px 40px 15px 50px;
+    color: rgb(131, 33, 33);
+}
+
+article#instrucao > ol {
+    color: rgb(131, 33, 33);
+    list-style: none;
+}
+
+article#instrucao > ol > li {
+    font-family: 'font2';
+    padding: 8px;
+    font-size: 1.2em;
+    color:  hsl(30, 10%, 34%);
+    max-width: 325px;
+    transform: translate(75px);
 }
