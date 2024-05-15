@@ -22,7 +22,6 @@ body, html {
 }
 
 main {
-    position: relative;
     background-color: white;
     width: 600px;
     height: auto;
@@ -84,9 +83,10 @@ article#ingredientes > ul > li {
     font-size: 1.2em;
     color:  hsl(30, 10%, 34%);
     transform: translate(75px);
+    width: 300px;
 }
 
-hr {
+ hr {
     margin: 30px 50px 40px 50px;
     border: 1px solid lightgray;
 }
@@ -97,18 +97,4 @@ article#instrucao > h2 {
     font-size: 2em;
     margin: 20px 40px 15px 50px;
     color: rgb(131, 33, 33);
-}
-
-article#instrucao > ol {
-    color: rgb(131, 33, 33);
-    list-style: none;
-}
-
-article#instrucao > ol > li {
-    font-family: 'font2';
-    padding: 8px;
-    font-size: 1.2em;
-    color:  hsl(30, 10%, 34%);
-    max-width: 325px;
-    transform: translate(75px);
 }
