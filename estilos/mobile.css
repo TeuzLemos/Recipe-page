@@ -19,6 +19,7 @@ body, html {
     width: 98vw;
     height: 100vh;
     background-color:  hsl(30, 54%, 90%);
+    font-family: 'font2';
 }
 
 main {
@@ -38,26 +39,25 @@ article#introducao > h1 {
     margin: 20px 0px 0px 50px;
     font-family: 'font';
     font-weight: 100;
+    color: rgb(131, 33, 33);
 }
 
 article#introducao > p {
     font-size: 1.5em;
     margin: 20px 40px 0px 50px;
     line-height: 1.3em;
-    font-family: 'font2';
     color:  hsl(30, 10%, 34%);
 }
 
 article#preparacao {
     background-color: hsl(332, 100%, 96%);
-    font-family: 'font2';
     width: 450px;
     height: 300px;
     margin-left: 50px;
     margin-top: 40px;
 }
 
-article#preparacao > h2 {
+article#preparacao > h3 {
     padding: 25px;
     font-size: 1.5em;
     color: hsl(333, 73%, 34%);
@@ -69,16 +69,15 @@ article#preparacao > ul > li {
     transform: translate(60px);
 }
 
-article#ingredientes > h2 {
+h2 {
     font-family: 'font';
     font-weight: normal;
     font-size: 2em;
-    margin: 20px 40px 15px 50px;
+    margin: 20px 40px 25px 50px;
     color: rgb(131, 33, 33);
 }
 
 article#ingredientes > ul > li {
-    font-family: 'font2';
     padding: 8px;
     font-size: 1.2em;
     color:  hsl(30, 10%, 34%);
@@ -91,10 +90,17 @@ article#ingredientes > ul > li {
     border: 1px solid lightgray;
 }
 
-article#instrucao > h2 {
-    font-family: 'font';
-    font-weight: normal;
-    font-size: 2em;
-    margin: 20px 40px 15px 50px;
-    color: rgb(131, 33, 33);
+article#instrucao div.item {
+    font-size: 1.2em;
+    padding-left: 60px;
+    margin-bottom: 17px;
+    width: 366px;
+    display: flex;
 }
+
+article#instrucao div.item div.num {
+    color: rgb(131, 33, 33);
+    margin-right: 25px;
+    font-weight: 700;
+}
+
