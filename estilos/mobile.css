@@ -39,7 +39,6 @@ article#introducao > h1 {
     margin: 20px 0px 0px 50px;
     font-family: 'font';
     font-weight: 100;
-    color: rgb(131, 33, 33);
 }
 
 article#introducao > p {
@@ -55,6 +54,7 @@ article#preparacao {
     height: 300px;
     margin-left: 50px;
     margin-top: 40px;
+    border-radius: 10px;
 }
 
 article#preparacao > h3 {
@@ -85,7 +85,7 @@ article#ingredientes > ul > li {
     width: 300px;
 }
 
- hr {
+ .l1 {
     margin: 30px 50px 40px 50px;
     border: 1px solid lightgray;
 }
@@ -98,9 +98,37 @@ article#instrucao div.item {
     display: flex;
 }
 
+.l2 {
+    margin: 0px 50px 0px 50px;
+}
+
 article#instrucao div.item div.num {
     color: rgb(131, 33, 33);
     margin-right: 25px;
     font-weight: 700;
 }
 
+article#nutricao > p {
+    max-width: 350px;
+    font-size: 1.2em;
+    margin: 20px 40px 20px 50px;
+}
+
+.nutrition-table .item {
+    padding: 1rem 5rem;
+    display: flex;
+}
+
+.nutricion-table .item:last-child {
+    border-bottom: 0;
+}
+
+.nutrition-table .item p:nth-child(2) {
+    color: rgb(131, 33, 33);
+    font-weight: 700;
+}
+
+.nutrition-table .item > * {
+    width: 100px;
+    margin-right: auto;
+}
