@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+   main {
+    width: 900px;
+    margin-top: 15px;
+    border-radius: 20px;
+   }
+
+   article#img > img {
+    margin: 35px 35px 10px 47.8px;
+    width: 800px;
+    height: 365px;
+    border-radius: 10px;
+   }
+
+   article#introducao > h1{
+    font-size: 3.1em;
+    margin: 20px 0px 0px 35px;
+   }
+
+   article#introducao > p {
+      font-size: 1.2em;
+      margin: 20px 50px 40px 35px;
+      font-weight: 500;
+      line-height: 1.5em;
+   }
+
+   article#preparacao {
+      width: 820px;
+      height: 230px;
+      margin: 20px 0px 40px 40px;
+      background-color: hsl(330, 100%, 96%);
+   }
+
+   article#preparacao > h3 {
+      padding:30px 0px 15px 30px ;
+   }
+
+   article#preparacao > ul > li {
+      font-size: 1.2em
+   }
+
+   article#ingredientes > ul > li {
+      width: 540px
+   }
+
+   article#instrucao div.item {
+      width: 780px;
+   }
+
+   article#nutricao > p {
+      max-width: 695px;
+   }
+
+   .nutrition-table  p {
+      font-size: 1.15em;
+   }
+}

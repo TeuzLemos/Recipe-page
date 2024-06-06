@@ -20,6 +20,7 @@ body, html {
     height: 100vh;
     background-color:  hsl(30, 54%, 90%);
     font-family: 'font2';
+
 }
 
 main {
@@ -27,6 +28,8 @@ main {
     width: 600px;
     height: auto;
     margin: auto;
+
+    transition: width 0.3s, height 0.3s;
 }
 
 article#img > img {
@@ -43,7 +46,7 @@ article#introducao > h1 {
 
 article#introducao > p {
     font-size: 1.5em;
-    margin: 20px 40px 0px 50px;
+    margin: 20px 75px 0px 50px;
     line-height: 1.3em;
     color:  hsl(30, 10%, 34%);
 }
@@ -66,12 +69,13 @@ article#preparacao > h3 {
 article#preparacao > ul > li {
     padding: 10px;
     font-size: 1.5em;
+    margin-right: 90px;
     transform: translate(60px);
 }
 
 h2 {
     font-family: 'font';
-    font-weight: normal;
+    font-weight: 500;
     font-size: 2em;
     margin: 20px 40px 25px 50px;
     color: rgb(131, 33, 33);
@@ -81,6 +85,7 @@ article#ingredientes > ul > li {
     padding: 8px;
     font-size: 1.2em;
     color:  hsl(30, 10%, 34%);
+    font-weight: 500;
     transform: translate(75px);
     width: 300px;
 }
